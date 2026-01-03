@@ -17,8 +17,8 @@ export default function HomePage() {
           <div className="text-center">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 bg-zinc-900/50 border border-zinc-800 rounded-full">
-              <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
-              <span className="text-sm text-zinc-400">Showcase Portfolio 2024</span>
+              <span className="w-2 h-2 bg-indigo-500 rounded-full animate-pulse" />
+              <span className="text-sm text-zinc-400">Powered by Next.js 16 & Tailwind 4</span>
             </div>
 
             {/* Main title - Gradient */}
@@ -238,7 +238,7 @@ export default function HomePage() {
             {" · "}
             <span className="text-zinc-400">shadcn/ui</span>
           </p>
-          <p className="text-xs text-zinc-600">© 2024 Portfolio Showcase</p>
+          <p className="text-xs text-zinc-600">© 2026 Portfolio Showcase. All rights reserved.</p>
         </div>
       </footer>
     </main>
