@@ -190,7 +190,7 @@ export default function HomePage() {
                     <div className="relative bg-zinc-900 rounded-xl p-4 shadow-2xl border border-zinc-700/50">
                       {/* Input */}
                       <div className="h-8 bg-zinc-800 rounded-lg border border-zinc-700 px-3 flex items-center mb-3">
-                        <span className="text-xs text-zinc-500">$</span>
+                        <span className="text-xs text-zinc-400">$</span>
                         <div className="ml-2 flex-1 h-2 bg-zinc-600 rounded" />
                       </div>
 
@@ -230,7 +230,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-zinc-900">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-zinc-500">
+          <p className="text-sm text-zinc-400">
             Built with{" "}
             <span className="text-zinc-400">Next.js 16</span>
             {" · "}
@@ -238,7 +238,7 @@ export default function HomePage() {
             {" · "}
             <span className="text-zinc-400">shadcn/ui</span>
           </p>
-          <p className="text-xs text-zinc-600">© 2026 Portfolio Showcase. All rights reserved.</p>
+          <p className="text-xs text-zinc-500">© 2026 Portfolio Showcase. All rights reserved.</p>
         </div>
       </footer>
     </main>

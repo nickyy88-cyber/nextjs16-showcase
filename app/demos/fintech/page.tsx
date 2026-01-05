@@ -92,7 +92,7 @@ export default function FintechPage() {
                 <p className="text-zinc-400 text-sm leading-relaxed">{feature.description}</p>
 
                 {/* Arrow */}
-                <div className="mt-6 flex items-center gap-2 text-sm text-zinc-500 group-hover:text-zinc-300 transition-colors">
+                <div className="mt-6 flex items-center gap-2 text-sm text-zinc-400 group-hover:text-zinc-300 transition-colors">
                   <span>Learn more</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </div>
@@ -109,7 +109,7 @@ export default function FintechPage() {
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <p className="text-4xl md:text-5xl font-bold text-white mb-2">{stat.value}</p>
-                <p className="text-sm text-zinc-500">{stat.label}</p>
+                <p className="text-sm text-zinc-400">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -149,7 +149,7 @@ export default function FintechPage() {
             </div>
             <span className="text-white font-medium">Quantum Cloud</span>
           </div>
-          <p className="text-sm text-zinc-600">© 2026 Quantum Cloud. All rights reserved.</p>
+          <p className="text-sm text-zinc-500">© 2026 Quantum Cloud. All rights reserved.</p>
         </div>
       </footer>
     </main>

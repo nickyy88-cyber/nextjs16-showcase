@@ -83,7 +83,7 @@ export default function ToolsPage() {
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
               placeholder="0.00"
-              className="h-12 text-2xl font-semibold bg-zinc-800/50 border-zinc-700 text-white placeholder:text-zinc-600 focus-visible:ring-violet-500 focus-visible:border-violet-500"
+              className="h-12 text-2xl font-semibold bg-zinc-800/50 border-zinc-700 text-white placeholder:text-zinc-500 focus-visible:ring-violet-500 focus-visible:border-violet-500"
             />
           </div>
 
@@ -91,7 +91,7 @@ export default function ToolsPage() {
           <div className="flex items-center gap-3 mb-8">
             {/* From Currency */}
             <div className="flex-1">
-              <label className="block text-xs font-medium text-zinc-500 mb-2">From</label>
+              <label className="block text-xs font-medium text-zinc-400 mb-2">From</label>
               <select
                 value={fromCurrency}
                 onChange={(e) => setFromCurrency(e.target.value)}
@@ -122,7 +122,7 @@ export default function ToolsPage() {
 
             {/* To Currency */}
             <div className="flex-1">
-              <label className="block text-xs font-medium text-zinc-500 mb-2">To</label>
+              <label className="block text-xs font-medium text-zinc-400 mb-2">To</label>
               <select
                 value={toCurrency}
                 onChange={(e) => setToCurrency(e.target.value)}
@@ -157,7 +157,7 @@ export default function ToolsPage() {
           </div>
 
           {/* Note */}
-          <p className="text-center text-xs text-zinc-500 mt-6">
+          <p className="text-center text-xs text-zinc-400 mt-6">
             Demo rates for illustration purposes only
           </p>
         </Card>
