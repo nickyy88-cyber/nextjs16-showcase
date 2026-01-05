@@ -149,7 +149,7 @@ export default function FintechPage() {
             </div>
             <span className="text-white font-medium">Quantum Cloud</span>
           </div>
-          <p className="text-sm text-zinc-500">© 2026 Quantum Cloud. All rights reserved.</p>
+          <p className="text-sm text-zinc-400">© 2026 Quantum Cloud. All rights reserved.</p>
         </div>
       </footer>
     </main>

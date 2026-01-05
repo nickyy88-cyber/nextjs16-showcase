@@ -238,7 +238,7 @@ export default function HomePage() {
             {" · "}
             <span className="text-zinc-400">shadcn/ui</span>
           </p>
-          <p className="text-xs text-zinc-500">© 2026 Portfolio Showcase. All rights reserved.</p>
+          <p className="text-xs text-zinc-400">© 2026 Portfolio Showcase. All rights reserved.</p>
         </div>
       </footer>
     </main>
